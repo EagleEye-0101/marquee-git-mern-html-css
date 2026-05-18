@@ -1,0 +1,80 @@
+/* Core Theme */
+body.dark-theme {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Reusable Components */
+#page-title.accent-bg {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: #fcee0a; /* Cyber Yellow */
+    text-transform: uppercase;
+    background: #ff0055; /* Neon Red */
+    padding: 5px 20px;
+    transform: skewX(-10deg);
+    box-shadow: 5px 5px 0px #00f0ff;
+    margin-bottom: 50px;
+}
+
+/* Layout Grid Structure */
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    width: 90%;
+    max-width: 550px;
+}
+
+.table-header th {
+    background-color: #111;
+    color: #00f0ff; /* Laser Cyan */
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    padding: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid #fcee0a;
+}
+
+.table-row {
+    background-color: #121214;
+    border-left: 4px solid #ff0055;
+    transition: all 0.2s ease-in-out;
+}
+
+.table-row td {
+    padding: 18px 12px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Dynamic State & Utility Classes */
+.table-row:hover {
+    background-color: #fcee0a;
+    transform: scale(1.03) skewX(-2deg);
+    cursor: crosshair;
+}
+
+.table-row:hover td {
+    color: #000000 !important;
+}
+
+/* Common Text Modifiers */
+.text-muted { color: #555556; }
+.text-highlight { color: #ffffff; text-transform: uppercase; }
+.text-accent { color: #fcee0a; }
+
+/* Reusable Column Widths */
+.col-small { width: 15%; }
+.col-medium { width: 35%; }
+.col-large { width: 50%; }

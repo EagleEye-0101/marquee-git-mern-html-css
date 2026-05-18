@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collection Form</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="18-05-2026formschool.css">
+</head>
+<body>
+    <div class="form-card">
+        <h1>Data Collection Form</h1>
+        <form action="" method="post">
+            <div class="input-group">
+                <label for="username">Enter your username:</label>
+                <input type="text" id="username" name="username" placeholder="Kali" required>
+            </div>
+            <div class="input-group">
+                <label for="subject">Enter your Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="MERN" required>
+            </div>
+            <div class="input-group">
+                <label for="examdate">Enter your exam date:</label>
+                <input type="date" id="examdate" name="examdate" required>
+            </div>
+            <div class="input-group">
+                <label for="marks">Enter your marks received:</label>
+                <input type="number" id="marks" name="marks" placeholder="90" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
