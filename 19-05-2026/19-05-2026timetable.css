@@ -1,0 +1,204 @@
+/* ==========================================================================
+   THE BARBIE DREAMHOUSE: PERFECTLY PINK PLASTIC PARADISE
+   Art Direction: Iconic Bubblegum Pink, High-Gloss Finishes, Glitter Accents
+   ========================================================================== */
+
+/* --- 1. THE DREAMHOUSE FRAMEWORK (GLOBAL RESET) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffdeeb; /* Soft Pastel Pink Backdrop */
+    /* Glamorous heart and star silhouette patterns */
+    background-image: 
+        radial-gradient(circle at 20% 30%, rgba(255, 105, 180, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(255, 20, 147, 0.15) 0%, transparent 50%),
+        linear-gradient(to right, #fff5f8 1px, transparent 1px),
+        linear-gradient(to bottom, #fff5f8 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 20px;
+    color: #4a0021;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* --- 2. THE GLAM VENEER SHOWCASE (TABLE BOX) --- */
+table {
+    width: 100%;
+    max-width: 1120px;
+    border-collapse: separate;
+    border-spacing: 6px;
+    background-color: #ffffff;
+    border-radius: 28px;
+    padding: 14px;
+    border: 5px solid #ff1493; /* Ultra Iconic Deep Pink Bezel */
+    box-shadow: 
+        0 18px 0px #db0072, /* Plastic Toy Box 3D Base Drop */
+        0 30px 50px rgba(219, 0, 114, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+caption {
+    display: none;
+}
+
+/* --- 3. THE RUNWAY CATEGORY TILES (THEAD) --- */
+thead tr:first-child th {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 22px;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(139, 0, 70, 0.4);
+    box-shadow: inset 0 -4px 0px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+}
+
+thead tr:last-child th {
+    background-color: #fff0f6;
+    color: #c71585;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 15px 8px;
+    border-radius: 12px;
+    border: 2px solid #ffb6c1;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Glittering Clock Dial (Top Left Corner Piece) */
+thead tr:last-child th:first-child {
+    background-color: #ff69b4;
+    color: #ffffff;
+    border-color: #ff1493;
+}
+
+/* --- 4. THE COUTURE GRID ASSEMBLIES (TBODY) --- */
+tbody td {
+    padding: 16px 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6a0036;
+    background-color: #fffafc;
+    border-radius: 14px;
+    border: 2px solid #ffe4e1;
+    box-shadow: inset 0 -3px 0px #ffe4e1; /* Shiny inner mold indent */
+    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.25);
+}
+
+/* Weekday Ribbon Badges (First Column) */
+tbody tr td:first-child {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    background-color: #fff0f5;
+    color: #ff1493;
+    font-size: 1.05rem;
+    font-weight: 600;
+    width: 125px;
+    border: 2px solid #ffb6c1;
+    box-shadow: inset 0 -3px 0px #ffb6c1;
+}
+
+/* --- 5. EXCLUSIVE RUNWAY CORRIDORS (ROWSPAN SHIELDS) --- */
+
+/* Morning Assembly (Chic Diamond Tonal Alignment) */
+td[rowspan="6"]:nth-of-type(2), 
+tbody tr:first-child td:nth-child(2)[rowspan="6"] {
+    background: linear-gradient(180deg, #ffb6c1 0%, #ff69b4 100%);
+    color: #ffffff;
+    border: 2px solid #ff69b4;
+    box-shadow: inset 0 -5px 0px rgba(219, 0, 114, 0.2);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+/* Intermission / Café Break (Sweet Cream Soda Pillar) */
+td[rowspan="6"]:nth-of-type(5),
+tbody tr:first-child td:nth-child(5)[rowspan="6"] {
+    background: linear-gradient(180deg, #ffe4e1 0%, #ffb7c5 100%);
+    color: #c71585;
+    border: 2px solid #ffb6c1;
+    box-shadow: inset 0 -5px 0px rgba(199, 21, 133, 0.2);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+/* --- 6. GLAMOUR WARDROBE PALETTE MIXER --- */
+tbody tr td:nth-child(3) { color: #db0072; } /* Hot Fuchsia Accent */
+tbody tr td:nth-child(4) { color: #9b5de5; } /* Lavender Sparkle */
+tbody tr td:nth-child(6) { color: #00bbf9; } /* Bright Malibu Turquoise */
+
+/* --- 7. THE HIGH-GLOSS FASHION POP (HOVER MECS) --- */
+tbody tr:hover td:not([rowspan]) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover td[rowspan] {
+    filter: brightness(1.04);
+}
+
+/* Materializing Doll Accessories on Selection */
+tbody td:not([rowspan]):not([colspan]):not(:first-child):hover {
+    background-color: #ff1493 !important;
+    color: #ffffff !important;
+    border-color: #db0072;
+    transform: scale(1.06) translateY(-3px); /* Snaps up like a dynamic plastic latch */
+    box-shadow: 
+        0 10px 20px rgba(255, 20, 147, 0.25),
+        inset 0 -3px 0px #db0072;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* --- 8. THE LIMITED EDITION LABEL (FOOTER CARD) --- */
+tbody tr:last-child td[colspan="7"] {
+    font-family: 'Playfair Display', serif;
+    background-color: #fff0f5;
+    color: #c71585;
+    font-size: 1rem;
+    padding: 18px;
+    border-radius: 16px;
+    border: 2px dashed #ffb6c1;
+    box-shadow: none;
+}
+
+tbody tr:last-child td[colspan="7"] i {
+    font-style: normal;
+    background-color: #ffffff;
+    padding: 3px 12px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #ff1493;
+    border: 1px solid #ffb6c1;
+}
+
+/* --- 9. WARDROBE CONTAINER PACKAGING DYNAMICS --- */
+@media (max-width: 1024px) {
+    body {
+        padding: 15px 5px;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    td[rowspan="6"] {
+        padding: 12px 8px !important;
+    }
+}
