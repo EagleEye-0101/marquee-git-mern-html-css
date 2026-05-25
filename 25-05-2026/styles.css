@@ -1,0 +1,46 @@
+.container{
+    background-color: gray;
+    padding: 20px 80px;
+    border: 2px dashed red;
+    border-radius: 20px;
+    margin: 50px;
+    width: 300px;
+    height: 250px;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.paragraph{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline dotted;
+}
+
+/* html{
+    font-size: 4rem; 
+ } */
+
+.parent{
+    border: 1px solid red;
+    /* padding: 2rem; */
+    font-size: 20px;
+    width: 15%;
+    /* width:100vh; */
+    height: 25%;
+    /* height: 25vh; */
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 2em;
+}
+
+h1{
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
