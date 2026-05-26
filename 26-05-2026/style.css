@@ -1,0 +1,47 @@
+
+
+.big-div{
+    background-color:seagreen;
+    border-radius: 10px;
+    border: 250px;
+    color: crimson;
+    padding: 200px;
+    height: 500px;
+    gap:20px;
+}
+
+.hi{
+    gap:20px;
+    display: flex;
+   
+}
+.card{
+    
+    display: inline-block;
+    background-color:burlywood;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px;
+    color: crimson;
+    padding:120px;
+    margin:5px;
+    height: 180px;
+}
+
+#nav{
+    display: block;
+    background-color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px white solid;
+    
+
+}
+
+#spa{
+    height:200px;
+}

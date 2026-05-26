@@ -1,0 +1,27 @@
+#box{
+    background-color: blanchedalmond;
+    padding: 100px;
+    border: 2px black solid;
+    border-radius: 5px;
+    position: relative;
+}
+
+#plus{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background-color: chartreuse;
+    padding: 15px;
+    width:45px;
+    height:45px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 70px;
+
+    
+    
+
+}
