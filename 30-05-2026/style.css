@@ -1,0 +1,41 @@
+.main{
+    background-color: rgb(160, 12, 103);
+    height: 30vh;
+    padding: 10px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.box{
+    /* width: 100px;
+    height: 100px; */
+    background-color: rgb(78, 78, 169);
+    border: 1px solid rgb(255, 248, 248);
+    border-radius: 10px;
+    color: white;
+
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    flex-basis: auto;
+    /* flex-basis: 200px; */
+}
+
+#box2{
+    background-color: rgb(62, 238, 59);
+    flex-grow: 2;
+}
+
+#box3{
+    background-color: rgb(47, 255, 252);
+    flex-shrink: 2;
+}
