@@ -34,6 +34,7 @@
     font-size: 14px;
     font-weight: 400px;
     color: blue;
+    align-items: center;
 
 }
 
@@ -41,6 +42,7 @@
     display: flex;
     gap:10px;
     font-weight: bold;
+    align-items: center;
 }
 
 
@@ -63,7 +65,15 @@
     font-size: small;
     font-weight: 600;
 }
+.flipkart-btn img{
+width: ;
+height: ;
+}
 
+
+.travel-btn img{
+
+}
 .travel-btn{
     background-color: rgb(154, 147, 147);
     padding: 16px 30px;
@@ -72,4 +82,77 @@
     color: black;
     font-size: small;
     font-weight: 600;
+}
+
+
+.mainbody{
+     padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+.search-bar {
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+
+} 
+
+.search-bar i{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:20px;
+    /* gap:50px; */
+    padding-left: 20px;
+}
+
+.search-bar input{
+    border: 2px blue solid;
+   width:800px;
+   height:30px;
+    border-radius: 10px;
+   /* margin:10px; */
+   padding-left:40px;
+   cursor:pointer;
+   
+   display:flex;
+   align-items: center;
+   /* gap:20px; */
+}
+
+.right-search-bar {
+    border: 1px white solid;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap:10px;
+    /* background-color: #FFE515; */
+    
+
+}
+
+.login{
+    display: flex;
+    padding:4px;
+    /* gap:1px; */
+align-items: center;
+}
+
+.cart{
+    display: flex;
+    padding:4px;
+    /* gap:1px; */
+    align-items: center;
+}
+.more{
+    display: flex;
+    padding:4px;
+    /* gap:1px; */
 }
